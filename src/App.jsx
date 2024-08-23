@@ -48,7 +48,7 @@ export default function App() {
         type="file"
         required
         multiple
-        accept=".pdf .jpg .jpeg .png"
+        accept=".pdf , .jpg , .jpeg , .png"
         onChange={handleFileChange}
       />
 
